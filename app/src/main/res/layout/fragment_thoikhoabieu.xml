@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:background="#fff"
+    tools:context="comkakashipham05.httpsfacebook.thpttienlu.fragment.Thoikhoabieu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/hocsinhmode"
+            android:layout_width="150dp"
+            android:layout_height="24dp"
+            android:text="Chế độ giáo viên"
+            android:gravity="center"
+            android:textSize="13dp"
+            android:drawableStart="@drawable/sortright"
+            android:textColor="#000"
+            android:background="@drawable/seclector"
+            android:drawableLeft="@drawable/sortright" />
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edit_text"
+            android:layout_marginTop="6dp">
+        <EditText
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:textSize="16dp"
+            android:hint="Nhập tên lớp..."
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:id="@+id/edittimkiem" />
+        </LinearLayout>
+            <Button
+                android:id="@+id/btnTimkiem"
+                android:layout_width="100dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/click_click"
+                android:textColor="#fff"
+                android:text=" Tìm Kiếm"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="2dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/magazine"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/tkbStart"
+            android:layout_marginTop="4dp"
+            android:textSize="16dp"
+            android:textColor="#ff0000"
+            android:text=" "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+        <ListView
+            android:layout_marginTop="8dp"
+            android:id="@+id/lv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ListView>
+    </LinearLayout>
+
+</FrameLayout>

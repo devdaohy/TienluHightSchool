@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/thoikhoabieu"
+            android:icon="@drawable/timetable"
+            android:title="Thời Khóa Biểu" />
+        <item
+            android:id="@+id/thongbao"
+            android:icon="@drawable/appointment"
+            android:title="Thông Báo" />
+        <item
+            android:id="@+id/adminmode"
+            android:icon="@drawable/adminmode"
+            android:title="Admin Mode"
+            />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/rateApp"
+                android:icon="@drawable/rate"
+                android:title="Đánh giá ứng dụng"
+                />
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/facebook"
+                android:title="Facebook nhà phát triển"
+                />
+        </menu>
+    </item>
+
+</menu>

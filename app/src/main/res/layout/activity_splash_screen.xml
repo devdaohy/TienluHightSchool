@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/accc"
+    tools:context="comkakashipham05.httpsfacebook.thpttienlu.SplashScreen.SplashScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginTop="140dp"
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:src="@drawable/thpttienlu" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="THPT Tiên Lữ"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    android:layout_marginTop="10dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="#393939"
+                        android:text="© Dev Dạo"/>
+                    <ProgressBar
+                        style="?android:attr/progress"
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/progressBar"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="Phát triển ứng dụng bởi Phạm Tiến Đạt"/>
+</RelativeLayout>

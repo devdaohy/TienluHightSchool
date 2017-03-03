@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#215e81">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/titleDialog"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:text="Error:"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="2dp"
+            android:background="#ffffff">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:text="Ấn vào nút CHỌN phía dưới và tìm đến đường dẫn file .xls thời khóa biểu trong máy của bạn"/>
+            <Button
+                android:id="@+id/doituongTKB"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:text="dành cho học sinh"
+                android:gravity="center"
+                android:layout_marginLeft="7dp"
+                android:textSize="13dp"
+                android:drawableStart="@drawable/sortright"
+                android:textColor="#000"
+                android:background="@drawable/seclector"
+                android:drawableLeft="@drawable/sortright" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/linkPath"
+                    android:layout_width="210dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/seclector"
+                    android:textSize="12sp"
+                    android:text=""/>
+                <Button
+                    android:id="@+id/btnChon"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Chọn"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:textColor="#fff"
+                    android:background="@drawable/click_click"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textColor="#000000"
+                android:layout_margin="10dp"
+                android:text="Chọn ngày bắt đầu áp dụng thời khóa biểu:\n( Ấn vào ngày phía dưới để chọn lại)"/>
+            <TextView
+                android:id="@+id/txtdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:textColor="#a61a1a"
+                android:text="text"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/themTKB"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="16dp"
+        android:background="@drawable/click_click"
+        android:textColor="#ffffff"
+        android:layout_margin="5dp"
+        android:text="Thêm Thời Khóa Biểu"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "914268286040",
+    "firebase_url": "https://thpt-tien-lu.firebaseio.com",
+    "project_id": "thpt-tien-lu",
+    "storage_bucket": "thpt-tien-lu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914268286040:android:87c6504eebf1096d",
+        "android_client_info": {
+          "package_name": "comkakashipham05.httpsfacebook.thpttienlu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914268286040-02jt93m4uvd63tj2qnb2tmjvs8ckq269.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1ffvqSgJ1Qg2gDnUqv7iYQaTSrXIeviQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<shape
+    android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Set màu nền -->
+    <solid
+        android:color="#215e81">
+    </solid>
+
+    <corners
+        android:radius="10dp">
+    </corners>
+
+</shape>

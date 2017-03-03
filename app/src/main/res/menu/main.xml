@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/settings"
+        android:showAsAction="always"
+        android:title="Cài đặt" />
+    <item
+        android:id="@+id/dangnhap"
+        android:icon="@drawable/usermale"
+        android:title="Đăng Nhập"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/dangki"
+        android:icon="@drawable/signup1"
+        android:title="Đăng Kí"
+        android:showAsAction="always" />
+</menu>

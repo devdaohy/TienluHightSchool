@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="comkakashipham05.httpsfacebook.thpttienlu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".config.Config"
+        android:allowBackup="true"
+        android:icon="@mipmap/iconss"
+        android:label="THPT Tiên Lữ"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminMode"
+            android:label="Login"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SignUP"
+            android:label="SignUp"
+            android:parentActivityName=".AdminMode" />
+        <activity
+            android:name=".AdminAction"
+            android:label="Admin Mode"
+            android:parentActivityName=".AdminMode" />
+
+        <service
+            android:name=".Service.ServiceClass"
+            android:enabled="true" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="THPT Tiên Lữ"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name=".Alarm" />
+
+        <activity
+            android:name=".setting"
+            android:label="Cài đặt"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".thongbao"
+            android:label="Thông báo"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>
